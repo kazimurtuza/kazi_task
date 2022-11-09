@@ -24,6 +24,12 @@
 <body>
 <div class="container">
     <div class="row">
+        @if(session()->has('error'))
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Success!</strong>  {{ session()->get('error') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        @endif
         <div class="form">
 
             <ul class="tab-group">

@@ -48,9 +48,10 @@ class adminController extends Controller
                 Auth::login($info);
             }
 
-
+             return redirect('admin/index');
          }
-        return redirect('admin/index');
+         return redirect()->back()->with('error','password or email is invalid');
+
 
     }
 }

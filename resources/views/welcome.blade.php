@@ -74,7 +74,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{route('doctors.free.time')}}">Coffee Time</a>
+                    <a class="nav-link active" aria-current="page" href="{{route('doctors.free.time')}}">Doctor Coffee Time</a>
                 </li>
 
 
@@ -87,7 +87,6 @@
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                         <li><a class="dropdown-item " href="{{route('admin.login.view')}}">Admin</a></li>
-                        <li><a class="dropdown-item" href="#">Doctor</a></li>
                     </ul>
                 </div>
             </div>
